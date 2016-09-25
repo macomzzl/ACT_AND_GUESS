@@ -1,0 +1,38 @@
+<html>
+<head>
+	<meta charset="gb2312">
+	<title>ACT AND GUESS</title>
+	<script src="./js/lib/jquery-3.1.0.min.js"></script>
+	<script src="./js/lib/lawnchair-0.6.4.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/lib/bootstrap.min.css"></link>
+	<link rel="stylesheet" type="text/css" href="./css/main.css"></link>
+</head>
+<body>
+	<div class="container">
+		<div class="form-horizontal col-sm-12" style="margin: 15px;">
+			<div class="form-group">
+				<label id="time" class="col-sm-2 col-sm-offset-5">90</label>
+			</div>
+			<div class="form-group" style="margin-top:50px;">
+				<label id="score_left" class="col-sm-2 col-sm-offset-3">0</label>
+				<label id="score_right" class="col-sm-2 col-sm-offset-2">0</label>
+			</div>
+			<div class="form-group">
+				<div id="word_left" class="col-sm-2 col-sm-offset-3 bg-danger"></div>
+				<div id="word_right" class="col-sm-2 col-sm-offset-2 bg-danger"></div>
+			</div>
+			<div class="form-group">
+				<button id="nextone_btn_left" class="col-sm-1 col-sm-offset-3 btn btn-success">答对</button>
+				<button id="stepover_btn_left" class="col-sm-1 btn btn-primary">跳过</button>
+				<button id="nextone_btn_right" class="col-sm-1 col-sm-offset-2 btn btn-success">答对</button>
+				<button id="stepover_btn_right" class="col-sm-1 btn btn-primary">跳过</button>
+			</div>
+			<div class="form-group" style="margin-top:70px;">
+				<button id="start_btn" class="col-sm-2 col-sm-offset-5 btn btn-info">开始</button>
+			</div>
+		</div>
+	</div>
+	<script src="./js/config.js" charset="gb2312"></script>
+	<script src="./js/app.js"  charset="gb2312"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+#time{
+	text-align:center;
+	font-size:7rem;
+	color:red;
+	font-weight:bold;
+}
+
+#score_right,#score_left{
+	text-align:center;
+	font-size:6rem;
+	font-weight:bold;
+}
+
+#word_left,#word_right{
+	text-align:center;
+	font-size:4rem;
+	height:110px;
+}
